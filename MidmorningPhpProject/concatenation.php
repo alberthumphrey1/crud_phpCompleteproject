@@ -1,0 +1,23 @@
+<?php
+$name = "Bradley";
+$age = "100";
+$bonus = "200000";
+echo "Hello $name, you are $age years old and your bonus is $bonus";
+echo "<br>";
+echo "Hello ".$name.", you are ".$age." years old and your bonus is ".$bonus;
+echo"<br>";
+$principle = 10000;
+$rate = 8;
+$time = 4;
+$simpleInterest =($principle * $rate * $time)/100;
+echo "Hello there, your interest is $simpleInterest";
+echo"<br>";
+$radius = 7;
+$pi = 3.142;
+$volume =4/3*$pi * $radius * $radius * $radius;
+echo "Hello, your volume is $volume";
+echo"<br>";
+$weight = 75;
+$height = 1.75;
+$gmi =($weight / $height * $height);
+echo "Hello, your bmi is $gmi";
